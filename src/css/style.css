@@ -1,0 +1,168 @@
+body{
+     background-color:#f3eae3;
+     font-family: 'Montserrat', sans-serif;
+}
+main .galeria-card-post{
+     width:670px;
+     height:500px;
+     background-color:#ffff;
+     border-radius:10px;
+     transition-duration:3s;
+}
+main .post-card-img{
+    width:600px;
+    height:500px;
+    background-image:url("../images/image-product-desktop.jpg");
+    background-repeat:no-repeat;
+    background-size:56%;
+    border-radius:10px 0px 10px 10px;
+}
+
+main .informacao-post-img{
+     float:right;
+     width:330px;
+     position: relative;
+     top:-90%;
+     padding:10px;
+}
+.informacao-post-img span{
+      position: relative;
+      top:-25px;
+      left:15px;
+      font-family: 'Montserrat', sans-serif;
+      font-size:15px;
+      color:#6e6e76;
+      text-transform:uppercase;
+      letter-spacing:5px;
+}
+.informacao-post-img h1{
+      position: relative;
+      top:0;
+      left:10px;
+      width:200px;   
+      margin-bottom:40px;
+      justify-content: center;
+      font-family: 'Fraunces', serif;
+      line-height:35px;
+      color:#171e26;
+}
+.informacao-post-img p{
+      width:280px;
+      font-family: 'Montserrat', sans-serif;
+      font-size:15px;
+      color:#6e6e76;
+      font-weight:200px;
+      line-height:25px;
+      position: relative;
+      top:0;
+      left:20px;
+      margin-bottom:20px;
+
+}
+.post-preco p{
+     font-family: 'Fraunces', serif;
+     color:#357d65;
+     font-size:2em;
+}
+.preco-post del{
+     font-family: 'Montserrat', sans-serif;
+     position: relative;
+     top:6px;
+     margin-left:12px;
+     color:#6e6e76;
+     font-size:13px;
+     font-weight:300px;
+     line-height:25px;
+}
+button{
+     font-family: 'Montserrat', sans-serif;
+     font-weight:800;
+     color:#ffffff;
+     margin-left:12px;
+     position: relative;
+     top:0px;
+     cursor: pointer;
+
+}
+
+.botao-post-img{
+     width:250px;
+     height:50px;
+     background-color:#3d8168;
+     border:none;
+     border-radius:10px;
+     margin-left:25px;
+     transition-duration:5s;
+}
+.botao-post-img img{
+     width:17px;
+     height:17px;
+     margin-left:10px;
+}
+.botao-post-img:hover{
+     background-color:#1a4031;
+     transition-duration:3s;
+     box-shadow: 0px 2px 3px #1a4031;
+}
+@media screen and (max-width: 668px){
+     main .content{
+         width:100%;
+         max-width:1400px;
+         margin:20px auto;
+    }
+    main .galeria-card-post{
+     width:400px;
+     height:710px;
+     background-color:#ffff;
+     border-radius:10px;
+     transition-duration:3s;
+   }
+   main .informacao-post-img{
+     float:none;
+     width:250px;
+     position: relative;
+     top:5%;
+     padding:10px;
+   }
+   main .post-card-img{
+     width:100%;
+     height:300px;
+     background-image:url("../images/image-product-desktop.jpg");
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-position:100%;
+     border-radius:10px 10px 0px 0px;
+ }
+ .informacao-post-img p{
+     width:280px;
+     line-height:25px;
+     position: relative;
+     top:0;
+     left:20px;
+     margin-bottom:7px;
+
+}.informacao-post-img h1{
+     position: relative;
+     top:0;
+     left:5px;
+     width:300px;   
+     margin-bottom:20px;
+     justify-content: center;
+     font-family: 'Fraunces', serif;
+     line-height:35px;
+     color:#171e26;
+}.botao-post-img{
+     width:350px;
+     height:50px;
+     background-color:#3d8168;
+     border:none;
+     border-radius:10px;
+     margin-left:5px;
+     margin-top:10px;
+     transition-duration:3s;
+}
+.informacao-post-img p{
+     width:300px;
+}
+
+ }

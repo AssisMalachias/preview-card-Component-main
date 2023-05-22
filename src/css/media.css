@@ -1,0 +1,22 @@
+@media screen and (max-width: 490px){
+    .post-card-img{
+        width:100px;
+        height:100px;
+        background-image:url("../images/image-product-desktop.jpg");
+        background-repeat:no-repeat;
+        background-size:56%;
+        border-radius:10px 0px 10px 10px;
+    }
+    main .content{
+        width:100%;
+        max-width:100%;
+        margin:0px auto;
+   }
+   main .galeria-card-post{
+    width:170px;
+    height:500px;
+    background-color:#ffff;
+    border-radius:10px;
+    transition-duration:3s;
+}
+}
